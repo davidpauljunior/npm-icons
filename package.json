@@ -1,0 +1,16 @@
+{
+  "name": "npm-icons",
+  "version": "1.0.0",
+  "description": "Using npm scripts to generate data-uris",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "icons": "datauri src/assets/svg/**/*.svg public/test.scss" 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "datauri": "^1.0.4",
+    "datauri-cli": "^1.0.4"
+  }
+}
